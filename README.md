@@ -1,6 +1,8 @@
 # PICamera
 .NET Web API for controlling a Raspberry Pi camera module.
 
+*NOTE: Rasberry Pi Zero 1 is not supported.*
+
 1. Publish PiCamera.Service:
 
     `dotnet publish -r linux-arm -p:PublishSingleFile=true --self-contained false`
@@ -26,6 +28,3 @@
     `./picamera`
 
 8. From another computer open your browser to: `http://{raspi-pi}:5000/swagger`.
-
-
-* NOTE: Rasberry Pi Zero 1 is not supported.
