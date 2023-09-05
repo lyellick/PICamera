@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PICamera.Shared", "PICamera.Shared\PICamera.Shared.csproj", "{7B078D02-B290-4C2B-A0FE-5403DEB3DBFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PICamera.Service", "PICamera.Service\PICamera.Service.csproj", "{134F236D-6DE5-4718-B246-130888D651E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PICamera.Site", "PICamera.Site\PICamera.Site.csproj", "{B71F4F20-2683-42EC-822F-794099E4B86E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B078D02-B290-4C2B-A0FE-5403DEB3DBFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B078D02-B290-4C2B-A0FE-5403DEB3DBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B078D02-B290-4C2B-A0FE-5403DEB3DBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B078D02-B290-4C2B-A0FE-5403DEB3DBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134F236D-6DE5-4718-B246-130888D651E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134F236D-6DE5-4718-B246-130888D651E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134F236D-6DE5-4718-B246-130888D651E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134F236D-6DE5-4718-B246-130888D651E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71F4F20-2683-42EC-822F-794099E4B86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71F4F20-2683-42EC-822F-794099E4B86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71F4F20-2683-42EC-822F-794099E4B86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71F4F20-2683-42EC-822F-794099E4B86E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B57F457-1252-47BE-AFF6-5269BCEAF974}
+	EndGlobalSection
+EndGlobal
