@@ -7,7 +7,7 @@
 
 2. Copy `Publish` folder to Rasbperry PI.
 
-3. SSH to Rasberry PI terminal and go to the `Publish` directory.
+3. SSH to Rasberry PI and go to the `Publish` directory you just copied.
 
 4. Add required environmental variables. 
 
