@@ -15,12 +15,14 @@
 
     `export DefaultConnection="Data Source=picamera.db"`
 
-5. Provide execute permissions:
+    `export AdminAccessKey="{GUID}"`
+
+6. Provide execute permissions:
 
     `chmod 777 ./picamera`
 
-6. Start web service:
+7. Start web service:
 
     `./picamera`
 
-7. From another computer open your browser to: `http://{raspi-pi}:5000/swagger`.
+8. From another computer open your browser to: `http://{raspi-pi}:5000/swagger`.
